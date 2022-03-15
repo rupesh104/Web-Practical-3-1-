@@ -28,7 +28,7 @@ margin: 0%;
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px) {
     .image{
-            margin : -312px 0px 0px -312px; /*  bottom-right of homer.jpg*/
+            background-position : -312px -312px; /*  bottom-right of homer.jpg*/
     }
 }
 
