@@ -1,12 +1,12 @@
 .image{
-    width: 400px; height: 400px;
+    width: 312.5px; height: 312.5px;
     background: url("homer.jpg");
 }
 
 @media only screen and (min-width: 1600px) {
     .image{ 
             position:absolute;
-            clip: rect(0px,312px,312px,0px); /*display the top-left image of homer.jpg*/
+            clip: rect(0px,312.5px,312.5px,0px); /*display the top-left image of homer.jpg*/
     }
 }
 
