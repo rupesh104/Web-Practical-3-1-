@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (min-width:1000px) and (max-width:1200px) {
+@media screen and (min-width:1001px) and (max-width:1200px) {
     img {
       position: absolute;
       clip: rect(312px,0px,312px,0px);
@@ -31,8 +31,10 @@
 }
 @media screen and (min-width:800px) and (max-width:1000px) {
     img {
-      position: absolute;
-      clip: rect(312px,0px,312px,0px);
+     width: 800px; 
+    height: 800px;
+    overflow:hidden;
+    margin: -400px 0px 0px -400px;
     }
 }
 @media screen and (min-width:600px) and (max-width:800px) {
