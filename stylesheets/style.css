@@ -4,6 +4,8 @@
 }
 image{
     background:url("homer.jpg");
+    width:400px;
+    height:400px;
 }
  
 @media screen and (min-width:1601px) {
