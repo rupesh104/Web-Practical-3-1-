@@ -12,7 +12,7 @@
 @media screen and (min-width:1400px) and (max-width:1600px) {
     img {
      position: absolute;
-      clip: rect(0px,0px,312px,312px);
+      clip: rect(312px,0px,312px,312px);
     }
 }
 
